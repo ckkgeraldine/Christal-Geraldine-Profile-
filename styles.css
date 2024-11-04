@@ -1,4 +1,4 @@
-/* Global Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +17,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Add smooth transition to sections */
 .hero-text {
     text-align: center;
     padding: 8cm;
@@ -45,13 +44,13 @@ html {
     transition: background-color 0.3s ease-in-out;
 }
 
-/* Hero Section */
+
 .hero {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('port2.jpg') no-repeat center center/cover;
+    background-image: url('port2.jpg') no-repeat center center/cover;
     text-align: center;
     color: white;
 }
